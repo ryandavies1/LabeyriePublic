@@ -22,7 +22,7 @@ function hardening {
 $settings = @(
     @{
         Path = 'HKLM:\Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access'
-        Name = 'Enabled'
+        Name = 'EnableControlledFolderAccess'
         Value = 1
         Type = 'DWord'
     },
