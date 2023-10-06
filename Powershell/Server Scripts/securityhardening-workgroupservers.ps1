@@ -141,6 +141,12 @@ $settings = @(
         Type = 'DWord'
     },
     @{
+        Path = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+        Name = 'UserAuthentication'
+        Value = 1
+        Type = 'DWord'
+    },
+    @{
         Path = 'HKLM:\SYSTEM\CurrentControlSet\Control\Lsa'
         Name = 'RestrictAnonymous'
         Value = 1
